@@ -1,7 +1,7 @@
 [versions]
 kotlin-gradle-plugin = "2.2.20"
-mcp-kotlin-sdk = "0.8.0"
+shadow-gradle-plugin = "9.2.2"
 
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-gradle-plugin" }
-mcp-kotlin-sdk = { module = "io.modelcontextprotocol:kotlin-sdk", version.ref = "mcp-kotlin-sdk" }
+shadow-gradle-plugin = { module = "com.gradleup.shadow:shadow-gradle-plugin", version.ref = "shadow-gradle-plugin" }

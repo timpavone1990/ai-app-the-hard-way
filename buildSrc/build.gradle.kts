@@ -8,6 +8,7 @@ repositories {
 
 dependencies {
     implementation(libs.kotlin.gradle.plugin)
+    implementation(libs.shadow.gradle.plugin)
 }
 
 kotlin {
