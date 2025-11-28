@@ -35,8 +35,8 @@ fun startServer() {
             },
             required = listOf("name")
         )
-    ) {
-            request ->
+    ) { request ->
+        println("Received request for get_person_info with arguments: ${request.arguments}")
         val name = request.arguments?.get("name")?.jsonPrimitive?.content
         if (name == null) {
             CallToolResult(content = listOf(TextContent("The parameter 'name' is required.")))
